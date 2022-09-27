@@ -9,7 +9,7 @@ ul {
 }
 
 body {
-  background-image: url(assets/Bg.jpg);
+  background-image: url(/assets/Bg.jpg);
   background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -103,6 +103,11 @@ section ul li:hover {
 }
 
 .games-list img {
+  width: 90px;
+  border-radius: 8px;
+}
+
+.games-social-list img {
   width: 90px;
   border-radius: 8px;
 }
